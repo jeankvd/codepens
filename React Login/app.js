@@ -7,7 +7,7 @@ class LoginControl extends React.Component{
   }
 
 
-// Comment to try out if git is working
+// Comment to try out if git is working now
   handleLoginClick() {
     this.setState(prevState => ({isLoggedIn: !prevState.isLoggedIn}));
   }
